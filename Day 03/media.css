@@ -1,0 +1,35 @@
+@media (min-width:576px) {
+    .col{
+        width: 50%;
+        background-color: brown;
+    }
+    
+}
+@media (min-width:768px) {
+    .col{
+        width: 33.33%;
+        background-color: lightslategray;
+    }
+    
+}
+@media (min-width:992px) {
+    .col{
+        width: 25%;
+        background-color:cyan;
+    }
+    
+}
+@media (min-width:1200px) {
+    .col{
+        width: 20%;
+        background-color: lightsalmon;
+    }
+    
+}
+@media (min-width:1400px) {
+    .col{
+        width: 16.66%;
+        background-color: lightgreen;
+    }
+    
+}
