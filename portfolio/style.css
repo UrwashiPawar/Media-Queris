@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 10px;
@@ -22,12 +23,16 @@ body{
 .col-2{
     width:70%;
 }
+
+.column-2{
+    width:50%;
+}
 .col-3{
     width: 33.33%;
 }
 .col-4{
     width:25%;
-    background-color: black;
+  
 }
 .col-5{
     width:20%;
@@ -47,6 +52,9 @@ body{
 .justify-content-center{
     justify-content: center;
 }
+.justify-content-flex-start{
+    justify-content: flex-start;
+}
 .align-items-center{
     align-items: center;
 }
@@ -56,24 +64,76 @@ body{
 .flex-column{
     flex-direction: column;
 }
-.About-me{
+.button{
     height: 60px;
     width: 120px;
+    padding: 20px 10px;
+    margin: 10px;
     border-radius: 100px;
     background-color: gray;
-    /* font-size: 15px; */
     text-align: center;
     color:black;
-    position: relative;
+
 
 }
+.text-size{
+    font-size: 20px;
+}
+
 .section-1{
     background-color: azure;
 }
 .section-2{
     background-color: rgb(158, 167, 175);
 }
+.bg-grey{
+    background-color: rgb(215, 214, 214);
+}
 
+.flex-column{
+    flex-direction: column;
+}
 
+.ri-javascript-fill{
+    font-size: 100px;
+   
+}
+.ri-javascript-line{
+    font-size: 100px;
+}
+
+.ri-reactjs-line{
+    font-size: 100px;
+}
+.ri-nextjs-fill{
+    font-size: 100px;
+}
+.ri-nodejs-line{
+    font-size: 100px;
+}
+.ri-copyright-fill{
+    font-size: 100px;
+}
+
+.ri-creative-commons-fill{
+    font-size: 100px;
+}
+.ri-leaf-fill{
+    font-size: 100px;
+}
+
+.box{
+    height:320px;
+    width:800px;
+    margin:10px;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+.text-design{
+    font-family: fantasy;
+    color:rgb(93, 242, 93);
+
+}
 
 
