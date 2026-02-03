@@ -1,0 +1,157 @@
+/* ===============================
+   LARGE TABLETS (≤1200px)
+================================ */
+@media (max-width: 1200px) {
+
+  .jd-grid,
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .brands-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .spotlight-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero {
+    padding: 60px 40px;
+  }
+}
+
+
+/* ===============================
+   TABLETS (≤992px)
+================================ */
+@media (max-width: 992px) {
+
+  .navbar {
+    padding: 15px 30px;
+  }
+
+  .nav-links {
+    display: none; /* hide links for mobile menu later */
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    min-height: auto;
+    padding: 60px 30px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+
+  .brands-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .jd-grid,
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .spotlight-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* ===============================
+   MOBILE (≤768px)
+================================ */
+@media (max-width: 768px) {
+
+  .top-bar {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  .icons span {
+    font-size: 18px;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .brands-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-box {
+    border-right: none;
+    border-bottom: 1px solid #e2ded7;
+  }
+
+  .jd-grid,
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .spotlight-card img {
+    height: 320px;
+  }
+
+}
+
+
+/* ===============================
+   SMALL PHONES (≤480px)
+================================ */
+@media (max-width: 480px) {
+
+  .hero {
+    padding: 40px 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 22px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .jd-grid,
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .jd-card img,
+  .product-card img {
+    height: 160px;
+  }
+
+  .spotlight-card img {
+    height: 260px;
+  }
+
+}
